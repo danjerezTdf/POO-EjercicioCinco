@@ -2,7 +2,7 @@ import { SoccerPlayer } from './class_soccerPlayer';
 import { MassageTherapist } from './class_massageTherapist';
 import { Coach } from './class_coach';
 
-class TeamSoccer {
+export class TeamSoccer {
     private _listSoccerPlayers : SoccerPlayer [];
     private _listMassageTherapist : MassageTherapist[];
     private _listCoach : Coach[];
