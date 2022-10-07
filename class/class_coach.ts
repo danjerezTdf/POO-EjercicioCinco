@@ -16,6 +16,3 @@ export class Coach extends Person {
     }
 }
 
-
-let coachOne = new Coach (33974451,"Jacinto","Barcelo",true,"Entrenador Principal");
-let coachTwo = new Coach (34619853,"Gema","Manrique",true,"Entrenador De Arqueros");

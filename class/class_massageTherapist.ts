@@ -17,5 +17,3 @@ export class MassageTherapist extends Person {
 }
 
 
-let theMassageOne = new MassageTherapist (34195158,"Cayetano","Farre",true,"Deportivo de Carga");
-let theMassageTwo = new MassageTherapist (32979801,"Aya","Sales",true,"Linfatico");

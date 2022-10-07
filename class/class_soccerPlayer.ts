@@ -42,8 +42,6 @@ export class SoccerPlayer extends Person {
 
 
 
-let playerOne = new SoccerPlayer (31819248,"Daniel","Jerez",true, 8,"Delantero",75,1.75)
-let playerTwo = new SoccerPlayer (32979801,"Jose Felix","Figueras",true, 8,"Delantero",75,1.75)
-let playerTree = new SoccerPlayer (34521579,"Marcos","Gallardo",true, 8,"Delantero",75,1.75)
+
 
 
