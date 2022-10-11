@@ -38,7 +38,7 @@ TeamSoccerONE.addCoach(coachA);
 
 // Agregamos Masjista al equipo4
 
-TeamSoccerONE.addMassageTherapist(theMassageA)
+TeamSoccerONE.addMassageTherapist(theMassageA);
 
 // Buscamos Persona en el Equipo
 
