@@ -30,6 +30,17 @@ var MassageTherapist = /** @class */ (function (_super) {
     MassageTherapist.prototype.setTipeTherapist = function (p_tipeTherapist) {
         this._tipeTherapist = p_tipeTherapist;
     };
+    MassageTherapist.prototype.changeCondition = function () {
+        if (this._condition === true) {
+            this._condition = false;
+            console.log("Se desvinculo Masajista");
+        }
+        else {
+            this._condition = true;
+            console.log("Se constrato Masajista");
+        }
+        return this._condition;
+    };
     return MassageTherapist;
 }(class_person_1.Person));
 exports.MassageTherapist = MassageTherapist;

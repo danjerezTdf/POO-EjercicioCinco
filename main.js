@@ -30,3 +30,7 @@ TeamSoccerONE.addCoach(coachA);
 TeamSoccerONE.addMassageTherapist(theMassageA);
 // Buscamos Persona en el Equipo
 TeamSoccerONE.searchForSurname("Manrique");
+// Contratar o Despedidir Jugador
+listSoccerPlayersA[1].changeCondition();
+// Contratar o Despedidir Entrenador
+listCoachA[1].changeCondition();

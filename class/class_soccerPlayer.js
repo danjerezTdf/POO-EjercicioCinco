@@ -51,6 +51,17 @@ var SoccerPlayer = /** @class */ (function (_super) {
     SoccerPlayer.prototype.setHeight = function (p_height) {
         this._height = p_height;
     };
+    SoccerPlayer.prototype.changeCondition = function () {
+        if (this._condition === true) {
+            this._condition = false;
+            console.log("Se desvinculo Jugador");
+        }
+        else {
+            this._condition = true;
+            console.log("Se constrato Jugador");
+        }
+        return this._condition;
+    };
     return SoccerPlayer;
 }(class_person_1.Person));
 exports.SoccerPlayer = SoccerPlayer;

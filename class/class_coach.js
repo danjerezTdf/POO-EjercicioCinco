@@ -30,6 +30,17 @@ var Coach = /** @class */ (function (_super) {
     Coach.prototype.setTipeCoach = function (p_tipeCoach) {
         this._tipeCoach = p_tipeCoach;
     };
+    Coach.prototype.changeCondition = function () {
+        if (this._condition === true) {
+            this._condition = false;
+            console.log("Se desvinculo Entrenador");
+        }
+        else {
+            this._condition = true;
+            console.log("Se constrato Entrenador");
+        }
+        return this._condition;
+    };
     return Coach;
 }(class_person_1.Person));
 exports.Coach = Coach;

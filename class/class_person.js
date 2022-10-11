@@ -32,6 +32,15 @@ var Person = /** @class */ (function () {
     Person.prototype.setCondition = function (p_condition) {
         this._condition = p_condition;
     };
+    Person.prototype.changeCondition = function () {
+        if (this._condition === true) {
+            this._condition = false;
+        }
+        else {
+            this._condition = true;
+        }
+        return this._condition;
+    };
     return Person;
 }());
 exports.Person = Person;

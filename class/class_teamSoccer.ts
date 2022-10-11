@@ -21,7 +21,7 @@ export class TeamSoccer {
     public removeSoccerPlayer (p_soccerPlayer:SoccerPlayer){
         for ( let i:number=0; i<= this._listSoccerPlayers.length; i++){
             if (p_soccerPlayer = this._listSoccerPlayers[i]){
-                console.log("Se Quito Jugador: "+ this._listSoccerPlayers[i].getSurName()+" "+ this._listSoccerPlayers[i].getName());
+                console.log("Se Quito Jugador: "+ this._listSoccerPlayers[i].getSurName()+", "+ this._listSoccerPlayers[i].getName());
                 this._listSoccerPlayers.splice(i, 1);
             }
         }
@@ -34,7 +34,7 @@ export class TeamSoccer {
     public removeMassageTherapist (p_massageTherapist:MassageTherapist){
         for ( let i:number=0; i<= this._listMassageTherapist.length; i++){
             if (p_massageTherapist = this._listMassageTherapist[i]){
-                console.log("Se Quito Masagista: "+ this._listMassageTherapist[i].getSurName()+" "+ this._listMassageTherapist[i].getName());
+                console.log("Se Quito Masagista: "+ this._listMassageTherapist[i].getSurName()+", "+ this._listMassageTherapist[i].getName());
                 this._listMassageTherapist.splice(i, 1);
             }
         }

@@ -14,5 +14,15 @@ export class Coach extends Person {
     public setTipeCoach(p_tipeCoach:string){
         this._tipeCoach = p_tipeCoach;
     }
+    public changeCondition ():boolean {
+        if (this._condition === true) {
+            this._condition = false
+            console.log("Se desvinculo Entrenador")
+        }else {
+            this._condition = true
+            console.log("Se constrato Entrenador")
+        }
+        return this._condition
+    }
 }
 

@@ -15,7 +15,7 @@ var TeamSoccer = /** @class */ (function () {
     TeamSoccer.prototype.removeSoccerPlayer = function (p_soccerPlayer) {
         for (var i = 0; i <= this._listSoccerPlayers.length; i++) {
             if (p_soccerPlayer = this._listSoccerPlayers[i]) {
-                console.log("Se Quito Jugador: " + this._listSoccerPlayers[i].getSurName() + " " + this._listSoccerPlayers[i].getName());
+                console.log("Se Quito Jugador: " + this._listSoccerPlayers[i].getSurName() + ", " + this._listSoccerPlayers[i].getName());
                 this._listSoccerPlayers.splice(i, 1);
             }
         }
@@ -28,7 +28,7 @@ var TeamSoccer = /** @class */ (function () {
     TeamSoccer.prototype.removeMassageTherapist = function (p_massageTherapist) {
         for (var i = 0; i <= this._listMassageTherapist.length; i++) {
             if (p_massageTherapist = this._listMassageTherapist[i]) {
-                console.log("Se Quito Masagista: " + this._listMassageTherapist[i].getSurName() + " " + this._listMassageTherapist[i].getName());
+                console.log("Se Quito Masagista: " + this._listMassageTherapist[i].getSurName() + ", " + this._listMassageTherapist[i].getName());
                 this._listMassageTherapist.splice(i, 1);
             }
         }

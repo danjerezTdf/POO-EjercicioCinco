@@ -35,4 +35,12 @@ export class Person {
     public setCondition (p_condition:boolean):void {
         this._condition = p_condition
     }
+    public changeCondition ():boolean {
+        if (this._condition === true) {
+            this._condition = false
+        }else {
+            this._condition = true
+        }
+        return this._condition
+    }
 }

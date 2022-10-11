@@ -38,6 +38,16 @@ export class SoccerPlayer extends Person {
     public setHeight (p_height:number) {
         this._height = p_height;
     }
+    public changeCondition ():boolean {
+        if (this._condition === true) {
+            this._condition = false
+            console.log("Se desvinculo Jugador")
+        }else {
+            this._condition = true
+            console.log("Se constrato Jugador")
+        }
+        return this._condition
+    }
 }
 
 
