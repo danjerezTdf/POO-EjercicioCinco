@@ -3,7 +3,7 @@ import { Person } from './class_person'
 export class MassageTherapist extends Person {
     private _tipeTherapist: string;
 
-    constructor(_id,_name,_surName, _condition,p_tipeTherapist) {
+    constructor(_id:number, _name:string, _surName:string, _condition: boolean,p_tipeTherapist: string) {
         super(_id,_name,_surName,_condition);
         this._tipeTherapist = p_tipeTherapist;
     }

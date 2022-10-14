@@ -3,7 +3,7 @@ import { Person } from './class_person'
 export class Coach extends Person {
     private _tipeCoach: string;
 
-    constructor(_id,_name,_surName, _condition,p_tipeCoach:string){
+    constructor(_id:number,_name:string,_surName:string, _condition: boolean,p_tipeCoach:string){
         super(_id,_name,_surName, _condition);
         this._tipeCoach = p_tipeCoach;
     }
